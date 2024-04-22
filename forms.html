@@ -1,0 +1,104 @@
+5<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SURVEY</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 30px;
+            width: 100%;
+
+        }
+        .cat{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            
+        }
+        .dog{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .you{
+display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .me{
+display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .love{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .all input{
+            padding: 15px;
+            border-radius: 5px;
+        
+        }
+        .all select{
+            padding: 15px;
+            border-radius: 5px;
+        }
+        button{
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head> 
+<body>
+    <fieldset class="all">
+        <div class="cat">
+            <label for="Name">Name</label>
+            <input placeholder="Enter your name" type="text" name="" required id="Name">
+        </div>
+        <div class="dog">
+            <label for="Email">Email</label>
+            <input placeholder="email@domain.tld" name="" required id="Email">
+        </div>
+        <div class="you">
+            <label for="1. The service provided was completed in a timely manner">1. The service provided was completed in a timely manner</label>
+            <select name="" id="">
+                <option value="">Choose</option>
+                <option value="">Strongly Agree</option>
+                <option value="">Agree</option>
+                <option value="">Neutral</option>
+                <option value="">Disagree</option>
+                <option value="">Strongly Disagree</option>
+            </select>
+        </div>
+        <div class="me">
+            <label for="2. The quality of work was high in quality">2. The quality of work was high in quality</label>
+            <select name="" id="">
+                <option value="">Choose</option>
+                <option value="">Strongly Agree</option>
+                <option value="">Agree</option>
+                <option value="">Neutral</option>
+                <option value="">Disagree</option>
+                <option value="">Strongly Disagree</option>
+            </select>
+        </div>
+        <div class="love">
+            <label for="Additional Comment">Additional Comment</label>
+            <textarea placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor." id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button>Send Response</button>
+        </div>
+    </fieldset>
+</body>
+</html>
