@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    /* font-size: 20px; */
+}
+.first{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+}
+.first input{
+    padding: 20px;
+    font-size: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+.second input{
+    padding: 20px;
+    font-size: 20px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+.third input{
+    padding: 20px;
+    font-size: 20px;
+}
+.fourt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+.fourt input{
+    padding: 20px;
+    font-size: 20px;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+.sixth button{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(156, 154, 154);
+}

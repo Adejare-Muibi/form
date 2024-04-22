@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+fieldset{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */ 
+    /* width: 100px; */
+    gap: 30px;
+    border-radius: 10px;
+}
+.cat{
+display: flex;
+flex-direction: column;
+}
+
+.goat{
+    display: flex;
+    flex-direction: column;
+}
+.go{
+    display: flex;
+    flex-direction: column;
+}
+.co{
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+}
+select{
+    height: 40px;
+}
+button{
+    height: 40px;
+}
+</style>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <div class="cat">
+                <label for="">Full Name:</label>
+                <input placeholder="Enter Your First and Last Name"type="text"name="" required id="Full Name">
+            </div>
+    
+            <div class="goat">
+            <label for="email">Email:</label>
+            <input placeholder="Input Your Mail" type="email" name="" required id="ema">
+            </div>
+
+            <div class="go">
+            <label for="">Food Option:</label>
+                <select name="" id="">
+                    <option value="">Select your food option</option>
+                    <option value="">Dodo</option>
+                    <option value="">Yam</option>
+                    <option value="">Rice</option>
+                    <option value="">Gari</option>
+                </select>
+            </div>
+    
+            <div class="co">
+                <label for="message">Message:</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ad eligendi sit eos obcaecati ullam, corrupti explicabo libero culpa vitae mollitia ea nostrum necessitatibus officiis fuga laborum dolore adipisci et? "></textarea>
+            </div>
+            
+            <button class="end">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
