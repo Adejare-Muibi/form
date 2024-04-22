@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic forum</title>
+</head>
+ <style>
+    .name,.attend,.many{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .name input,.attend select,.many select{
+        height: 6vh;
+    }
+    button{
+        width: 10%;
+        height: 6vh;
+    }
+
+ </style>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <div class="name">
+                <label for="full name">Full Name:</label>
+                <input placeholder="First and Last" type="text" name="" required id=" Full Name">
+            </div>
+            <div class="name">
+                <label for="Email">Email:</label>
+                <input placeholder="Email" type="email" name="" required id="Email">
+            </div>
+            <div class="attend">
+                <label for="name">will you attend:</label>
+                <select name="attending" id=" attending" required>
+                    <option value="" selected="" disabled="">select</option>
+                    <option value="yes">yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="many">
+                <label for="pius">And with how many guests?</label>
+                <select name="plus" id="plus" required>
+                    <option value="0" selected="">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <button type="submit">RVSP</button>
+        </fieldset>
+        
+        
+    </form>
+    
+</body>
+</html>

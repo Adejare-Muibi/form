@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey forum</title>
+</head>
+ <style>
+    .name,.email,.manner,.high,.Comments{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .name input,.email input,.manner input,
+     .high input,button{
+        height: 6vh;
+    }
+     fieldset{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     }
+     button{
+        width: 12%;
+     }
+     .Comments textarea{
+        height: 30vh;
+     }
+
+ </style>
+<body>
+    <form action="" method="post">
+        <fieldset>
+           <div class="name">
+             <label for="full name ">Full Name:</label>
+             <input placeholder="First and Last" type="text" name="" required id=" full name">
+           </div>
+           <div class="email">
+             <label for="email">Email:</label>
+             <input placeholder="Enter your email" type="text" name=""required id="email">
+           </div>
+           <div class="manner">
+             <label>1. The service provided was completed in a timely manner.</label>
+             <input placeholder="Choose" type="text">
+           </div>
+           <div class="high">
+                <label>2. The quality of work was high in quality.</label>
+                <input placeholder="Choose" type="text">
+           </div>
+           <div class="Comments">
+                <label>Additional Comments</label>
+                <textarea name="" required id="Additional Comments" cols="30" rows="10">Massages</textarea>
+           </div>
+            <button type="submit">Send Responds</button>
+        </fieldset>
+    </form>
+</body>
+</html>
